@@ -1,0 +1,433 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color:  none;
+	font-family: 'Righteous', cursive;
+	/*font-family: 'Fredoka One', cursive;*/
+	/*font-family: 'Kalam', cursive;*/
+}
+
+header{
+	background-color: #222831;
+	width: 100%;
+	padding: 18px;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+}
+header ul{
+	list-style: none;
+	padding-left: 15px;
+}
+header a{
+	color: white;
+	text-decoration: none;
+}
+nav{
+	display: inline-block;
+	padding: 1px;
+}
+
+nav li{
+	display: inline-block; 
+	margin-right: 20px;
+	font-family: 'Righteous', cursive;
+
+}
+.logo{
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+a:hover{
+	border-bottom: solid #F05454;
+	font-weight: bolder;
+}
+/*----------------*/
+/*MAIN*/
+main{
+	background-color: #DDDDDD;
+	margin-top: 8vh;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+/*Index*/
+h3{
+	color: #30475E;
+}
+h2{
+	color: #F05454;
+}
+.presentacion__ingenieria img{
+	border-radius: 20px;
+	width: 100%;
+	padding-top: 10px;
+}
+.presentacion__inicio2 img{
+	width: 100%;
+	border-radius: 20px;
+	padding-top: 10px;
+	height: 60vw;
+}
+.presentacion__inicio3 img{
+	width: 100%;
+	border-radius: 20px;
+	background-color: #222831;
+	padding-top: 20px;
+	clip-path: circle(43.6% at 50% 50%);
+}
+
+/*-------------------*/
+
+/*Educación*/
+.educacion h1{
+	text-align: center;
+}
+.educacion ul{
+	text-align: center;
+
+}
+.idiomas h1{
+	text-align: center;
+	padding-top: 5px;
+	background-color: #DDDDDD;
+}
+.idiomas{
+	/*background-image: url(../img/educacion1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 60vw;*/
+}
+.idiomas ul{
+	list-style: none;
+	height: 30vw;
+	padding-top: 10px;
+	/*border: solid;*/
+	/*background-color: #DDDDDD;*/
+}
+.idiomas li{
+	padding-top: 10px;
+}
+.idiomas__imagen{
+background-image: url(../img/educacion1.jpg);
+background-size: cover;
+opacity: 80%;
+height: 60vw;
+border-radius: 20px;
+}
+.historia__item{
+	color:#DDDDDD ;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color:#222831;
+	border-radius: 20px;
+	width: 100%;
+}
+
+/*-------------------*/
+
+/*Contacto*/
+.contacto p{
+	padding-top: 10px;
+}
+.motivo p{
+	padding-top: 10px;
+}
+.comentarios p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*-------------------*/
+/*Más acerca de mí*/
+.musica{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.musica img{
+	padding-top: 10px;
+}
+.libros{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.libros img{
+	padding-top: 10px;
+}
+.deportes__item{
+	color:#DDDDDD ;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color:#222831;
+	border-radius: 20px;
+	width: 100%;
+}
+.deportes__item--important{
+	color:#F05454 ;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color:#222831;
+	border-radius: 20px;
+	width: 100%;
+}
+/*-------------------*/
+/*FOOTER*/
+footer{
+	background-color: #F05454;
+}
+.footer__redes-sociales li{
+	display: inline-block;
+	padding-left: 12vw;
+	right: 10px;
+	padding-top: 10px;
+	height: 15vw;
+}
+
+
+/*Media Queries*/
+/*Presentación*/
+@media only screen and (min-width: 992px){
+	
+/*HEADER*/
+nav{
+	display: inline-block;
+	padding: 1px;
+}
+
+nav li{
+	display: inline-block; 
+	margin-left: 20px;
+	font-family: 'Righteous', cursive;
+
+}
+.logo{
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+/*----------------*/
+/*INDEX*/
+.presentacion{
+		display: inline-block;
+		
+	}
+	.presentacion__persona{
+		padding-top: 20px;
+		width: 48%;
+		position: relative;
+		bottom: 20px;
+		right: 10px;
+		font-size: 26px;
+		display: inline-block;
+
+	}
+.presentacion__ingenieria{
+		width: 40%;
+		display: inline-block;
+		padding-left: 40px;
+	}
+
+.caracteristicas{
+	display: inline-block;
+	
+	margin-top: 20px;
+}
+.caracteristicas__persona{
+		width: 48%;
+		position: relative;
+		bottom: 120px;
+		right: 10px;
+		font-size: 26px;
+		display: inline-block;
+		
+		
+	}
+.presentacion__inicio2{
+		width: 40%;
+		display: inline-block;
+		padding-left: 40px;
+	}
+.presentacion__inicio2 img{
+		height: 20vw;
+	}
+.adicional{
+	display: inline-block;
+	
+	margin-top: 20px;
+}
+.adicion{
+	width: 48%;
+	position: relative;
+	bottom: 100px;
+	right: 10px;
+	font-size: 25px;
+	display: inline-block;
+		
+}
+.presentacion__inicio3{
+		width: 40%;
+		display: inline-block;
+		padding-left: 40px;
+}
+/*------------------------*/
+/*EDUCACIÓN*/
+.educacion{
+padding-top: 40px;
+	width: 48%;
+	position: relative;
+	bottom: 20px;
+	right: 10px;
+	font-size: 26px;
+	display: inline-block;	
+}
+.educacion li{
+	list-style: none;
+}
+.idiomas{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 40vw;
+	position: relative;
+	right: 10px;
+	font-size: 26px;
+	display: inline-block;
+}
+.idiomas__lista{
+	padding-top: 30px;
+	width: 48%;
+	height: 48%;
+	position: relative;
+	bottom: 200px;
+	right: 10px;
+	font-size: 26px;
+	display: inline-block;
+}
+.idiomas__imagen{
+	margin-top: 20px;
+	display: inline-block;
+	width: 48%;
+	height: 30vw;
+	
+}
+.historia{
+	margin-top: 20px;
+	height: 10vw;
+}
+.historia__item{
+	width: 24%;
+}
+/*------------------------*/
+/*MÁS ACERCA DE MÍ*/
+.musica{
+	width: 100%;
+	height: 48%;
+	position: relative;
+	font-size: 26px;
+	display: inline-block;
+}
+.musica1{
+	color: #222831;
+}
+.musica ul{
+	width: 100%;
+	list-style: none;
+	display: inline-block;
+	direction: rtl;
+}
+.musica ol{
+	width: 100%;
+	list-style: none;	
+}
+.musica li{
+	display: inline-block;
+}
+.musica2{
+	display: inline-block;
+	position: relative;
+	bottom: 70px;
+	border: #222831 5px dashed;
+}
+.musica3{
+	display: inline-block;
+	margin-right: 20px;
+}
+.musica4{
+	display: inline-block;
+	position: relative;
+	bottom: 70px;
+	border: #222831 5px dashed;
+	
+}
+.musica5{
+	display: inline-block;
+}
+.musica6{
+	display: inline-block;
+	position: relative;
+	bottom: 70px;
+	border: #222831 5px dashed;
+}
+.musica7{
+	display: inline-block;
+	margin-right: 18%;
+}
+.musica8{
+	display: inline-block;
+	margin-left: 11%;
+	position: relative;
+	bottom: 70px;
+	border: #222831 5px dashed;
+}
+
+.musica9{
+	display: inline-block;	
+}
+
+.libros{
+	width: 100%;
+	height: 48%;
+	position: relative;
+	font-size: 26px;
+	display: inline-block;
+}
+.libros img{
+	height: 300px;
+	width: 250px;
+}
+.deportes{
+	width: 100%;
+	height: 48%;
+	position: relative;
+	font-size: 26px;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.deportes__item{
+	width: 24%;
+}
+.deportes__item--important{
+	width: 24%;
+}
+/*------------------------*/
+
+/*FOOTER*/
+.footer__redes-sociales li{
+	height: 4vw;
+	padding-left: 17vw;
+}
+/*------------------------*/
